@@ -1,6 +1,28 @@
 ERROR 451: 本網頁基於國家法律而封鎖
 ====================================
 
+###修改如下：
+
+- 引用以下JavaScript即可。
+
+```JavaScript
+    <script src="//cdn.rawgit.com/clarkzjw/Error451-Blackout/master/blackout.js"></script>
+```
+
+- 修改背景圖爲 [High Chancellor](https://www.flickr.com/photos/mary-lynn/236408628/)，取材來自電影 1984 . 
+
+- 修改說明文字，擴大其適用範圍。
+
+- 修改HTTP ERROR 451示例爲 [programthink/zhao](https://github.com/programthink/zhao) 在中國大陸訪問的響應。
+
+- 在中國大陸使用採用[署名-相同方式共享 3.0 中国大陆(CC BY 3.0 CN)](https://creativecommons.org/licenses/by-sa/3.0/cn/) 授權。
+
+[Live DEMO at HERE](https://clarkzjw.github.io/Error451-Blackout/)
+
+====================================
+[ERROR 451: 本網頁基於國家法律而封鎖](https://github.com/moztw/TW-Error451-Blackout)
+====================================
+
 響應 #網路全黑日，MozTW（Mozilla 台灣社群） 在此提供以下 Blackout 語法，
 只要加到網站 `</body>` 前方最後一行，使用者進站時即會看到 Blackout 451 畫面：
 
