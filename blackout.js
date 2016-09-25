@@ -3,7 +3,7 @@
 var blackout_css = document.createElement("style");
 var blackout_css_content = document.createTextNode(
     "#blackout * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}" + 
-    "#blackout { background-color: #3C261C; background-image: url(v.jpg); background-repeat: no-repeat; background-size: cover; font-size: 16px; height: 100%; left: 0; margin: 0; overflow: hidden; position: fixed; text-align: left; top: 0; -webkit-transition: top 0.8s; transition: top 0.8s; width: 100%; z-index: 99999; }" +
+    "#blackout { background-color: #3C261C; background-image: url(https://github.com/clarkzjw/Error451-Blackout/raw/gh-pages/v.jpg); background-repeat: no-repeat; background-size: cover; font-size: 16px; height: 100%; left: 0; margin: 0; overflow: hidden; position: fixed; text-align: left; top: 0; -webkit-transition: top 0.8s; transition: top 0.8s; width: 100%; z-index: 99999; }" +
     "#blackout.out { top: -150%; }" + 
     "#blackout section { background: rgba(0, 0, 0, 0.2); border-radius: 1em; color: white; line-height: 1.5em; margin: 5% auto 3%; max-height: 70%; max-width: 750px; overflow-y: auto; padding: 3%; text-shadow: 1px 3px 3px black; width: 75%; }" + 
     "#blackout p { color: white; line-height: 1.5em; text-shadow: 1px 3px 3px black; }" + 
@@ -36,7 +36,7 @@ blackout_css.appendChild(blackout_css_content);
     content31.appendChild(document.createTextNode("如果我們同意提供政府這種權力，以後他們還能以各種理由，任意阻擋他們覺得「不適當」的網站。未來許多網站可能被迫自我審查，在你發言的同時，先看看有沒有「敏感詞」。"));
 
     var error451a = document.createElement("a");
-    error451a.setAttribute("href", "./451.PNG");
+    error451a.setAttribute("href", "https://github.com/clarkzjw/Error451-Blackout/raw/gh-pages/451.PNG");
     error451a.setAttribute("target", "_blank");    
     error451a.appendChild(document.createTextNode("ERROR 451 錯誤頁面"));
 

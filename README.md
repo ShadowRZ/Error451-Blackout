@@ -3,13 +3,13 @@ ERROR 451: 本網頁基於國家法律而封鎖
 
 ###修改如下：
 
-- 引用以下JavaScript即可。
+- 只要加到網站 `</body>` 前方最後一行，使用者進站時即會看到 Blackout 451 畫面：
 
 ```JavaScript
-    <script src="//cdn.rawgit.com/clarkzjw/Error451-Blackout/master/blackout.js"></script>
+    <script src="//rawgit.com/clarkzjw/Error451-Blackout/gh-pages/blackout.js"></script>
 ```
 
-- 修改背景圖爲 [High Chancellor](https://www.flickr.com/photos/mary-lynn/236408628/)，取材來自電影 1984 . 
+- 修改背景圖爲 [High Chancellor](https://www.flickr.com/photos/mary-lynn/236408628/)，取材來自電影 V for Vendetta.
 
 - 修改說明文字，擴大其適用範圍。
 
