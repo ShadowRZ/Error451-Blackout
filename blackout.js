@@ -41,7 +41,7 @@ blackout_css.appendChild(blackout_css_content);
     error451a.appendChild(document.createTextNode("ERROR 451 错误页面"));
 
     var content4 = document.createElement("p");
-    content4.appendChild(document.createTextNode("我们不希望这种事情在任何地方（尤其是中国大陆）发生，请您与我们一同反对政府将手伸进网络！如果你我不积极争取，有一天，你将会看到这个 "));
+    content4.appendChild(document.createTextNode("我们不希望这种事情在任何地方发生，请您与我们一同反对政府将手伸进网络！如果你我不积极争取，有一天，你将会看到这个 "));
     content4.appendChild(error451a);
     content4.appendChild(document.createTextNode("，真正阻挡了你的浏览。"));
 
