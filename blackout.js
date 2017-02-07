@@ -1,4 +1,4 @@
-//套上CSS樣式
+//CSS样式
 (function() {
 var blackout_css = document.createElement("style");
 var blackout_css_content = document.createTextNode(
@@ -16,10 +16,10 @@ var blackout_css_content = document.createTextNode(
 );
 blackout_css.appendChild(blackout_css_content);
 
-//騰寫抗議內容
+//内容
     var header = document.createElement("header");
     var title = document.createElement("h1");
-    title.appendChild(document.createTextNode("本網頁基於國家法律而封鎖"));
+    title.appendChild(document.createTextNode("本网页基于国家法律而封锁"));
     header.appendChild(title);
 
     var section = document.createElement("section");
@@ -28,22 +28,22 @@ blackout_css.appendChild(blackout_css_content);
     var br = document.createElement("br");
 
     var content1 = document.createElement("p");
-    content1.appendChild(document.createTextNode("為何看到這個畫面？"));
+    content1.appendChild(document.createTextNode("为何看到这个界面？"));
 
     var content3 = document.createElement("p");
-    content3.appendChild(document.createTextNode("你知道嗎，政府正打算立法，取得逕自封鎖境外侵權網站的權利。未來本站如果出現利益團體認定的侵權內容，經由政府機關對 ISP 下令，就可以封鎖本站，讓你再也連不上。"));
+    content3.appendChild(document.createTextNode("你知道吗，政府正打算立法，取得逕自封锁境外侵权网站的权利。未来本站如果出现政府认定的侵权内容，经由政府机关对 ISP 下令，就可以封锁本站，让你再也连不上。"));
     var content31 = document.createElement("p");
-    content31.appendChild(document.createTextNode("如果我們同意提供政府這種權力，以後他們還能以各種理由，任意阻擋他們覺得「不適當」的網站。未來許多網站可能被迫自我審查，在你發言的同時，先看看有沒有「敏感詞」。"));
+    content31.appendChild(document.createTextNode("如果我们同意提供政府这种权利，以后他们还能以各种理由，任意阻挡他们觉得“不适当”的网站。未来许多网站可能被迫自我审查，在你发言的同时，先看看有沒有“敏感词”。"));
 
     var error451a = document.createElement("a");
     error451a.setAttribute("href", "https://github.com/clarkzjw/Error451-Blackout/raw/gh-pages/451.PNG");
     error451a.setAttribute("target", "_blank");
-    error451a.appendChild(document.createTextNode("ERROR 451 錯誤頁面"));
+    error451a.appendChild(document.createTextNode("ERROR 451 错误页面"));
 
     var content4 = document.createElement("p");
-    content4.appendChild(document.createTextNode("我們不希望這種事情在任何地方發生，請您與我們一同反對政府將手伸進網路！如果你我不積極爭取，有一天，你將會看到如此 "));
+    content4.appendChild(document.createTextNode("我们不希望这种事情在任何地方发生，请您与我们一同反对政府将手伸进网络！如果你我不积极争取，有一天，你将会看到这个 "));
     content4.appendChild(error451a);
-    content4.appendChild(document.createTextNode("，真正阻擋了你的瀏覽。"));
+    content4.appendChild(document.createTextNode("，真正阻挡了你的浏览。"));
 
     section.appendChild(content1);
     section.appendChild(content3);
@@ -55,10 +55,10 @@ blackout_css.appendChild(blackout_css_content);
     footer_content_close.setAttribute("href", "javascript:void(0)");
     footer_content_close.setAttribute("class", "blackout-btn");
     footer_content_close.setAttribute("onclick", "document.getElementById('blackout').className = document.getElementById('blackout').className+' out';");
-    footer_content_close.appendChild(document.createTextNode("繼續瀏覽網頁"));
+    footer_content_close.appendChild(document.createTextNode("继续浏览网页"));
     footer.appendChild(footer_content_close);
 
-//建立抗議內容到#blackout區塊
+//#blackout区块
 function showBlackout()
 {
     var element = document.createElement("div");
