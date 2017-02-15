@@ -1,12 +1,16 @@
 ERROR 451: 本网页基于国家法律而封锁
 ====================================
 
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 ###修改如下：
 - 添加简体中文版。
+- JS脚本按照[Standard - JavaScript Style Guide](http://standardjs.com/)重新格式化
+- 背景图片改为由[此图片](https://commons.wikimedia.org/wiki/File:Sample_09-F9_protest_art,_Free_Speech_Flag_by_John_Marcotte.svg)编辑而来的版本。
 
 @ShadowRZ 希望人们按照[Mozilla 宣言](https://www.mozilla.org/zh-CN/about/manifesto/details/)，使互联网更加美好。
 
-====================================
+
 ERROR 451: 本網頁基於國家法律而封鎖
 ====================================
 
@@ -28,7 +32,7 @@ ERROR 451: 本網頁基於國家法律而封鎖
 
 [Live DEMO at HERE](https://clarkzjw.github.io/Error451-Blackout/)
 
-====================================
+
 [ERROR 451: 本網頁基於國家法律而封鎖](https://github.com/moztw/TW-Error451-Blackout)
 ====================================
 
