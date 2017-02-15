@@ -3,7 +3,7 @@
   var CSSBlackout = document.createElement('style')
   var CSSBlackoutContent = document.createTextNode(
     '#blackout * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}' +
-    '#blackout { background-color: #890604; background-image: url(bg.svg); background-position: center; background-repeat: no-repeat; background-size: cover; font-size: 16px; height: 100%; left: 0; margin: 0; overflow: hidden; position: fixed; text-align: left; top: 0; -webkit-transition: top 0.8s; transition: top 0.8s; width: 100%; z-index: 99999; }' +
+    '#blackout { background-color: #890604; background-image: url(https://shadowrz.github.io/Error451-Blackout/bg.svg); background-position: center; background-repeat: no-repeat; background-size: cover; font-size: 16px; height: 100%; left: 0; margin: 0; overflow: hidden; position: fixed; text-align: left; top: 0; -webkit-transition: top 0.8s; transition: top 0.8s; width: 100%; z-index: 99999; }' +
     '#blackout.out { top: -150%; }' +
     '#blackout section { background: rgba(0, 0, 0, 0.2); border-radius: 1em; color: white; line-height: 1.5em; margin: 5% auto 3%; max-height: 70%; max-width: 750px; overflow-y: auto; padding: 3%; text-shadow: 1px 3px 3px black; width: 75%; }' +
     '#blackout p { color: white; line-height: 1.5em; text-shadow: 1px 3px 3px black; }' +
@@ -29,12 +29,12 @@
   content1.appendChild(document.createTextNode('为何看到这个界面？'))
 
   var content3 = document.createElement('p')
-  content3.appendChild(document.createTextNode('你知道吗，政府正打算立法，取得逕自封锁境外侵权网站的权利。未来本站如果出现政府认定的侵权内容，经由政府机关对 ISP 下令，就可以封锁本站，让你再也连不上。'))
+  content3.appendChild(document.createTextNode('你知道吗，政府正打算立法，取得迳自封锁境外侵权网站的权利。未来本站如果出现政府认定的侵权内容，经由政府机关对 ISP 下令，就可以封锁本站，让你再也连不上。'))
   var content31 = document.createElement('p')
   content31.appendChild(document.createTextNode('如果我们同意提供政府这种权利，以后他们还能以各种理由，任意阻挡他们觉得“不适当”的网站。未来许多网站可能被迫自我审查，在你发言的同时，先看看有沒有“敏感词”。'))
 
   var error451a = document.createElement('a')
-  error451a.setAttribute('href', '451.PNG')
+  error451a.setAttribute('href', 'https://shadowrz.github.io/Error451-Blackout/451.PNG')
   error451a.setAttribute('target', '_blank')
   error451a.appendChild(document.createTextNode('ERROR 451 错误页面'))
 
