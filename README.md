@@ -8,13 +8,15 @@ ERROR 451: 本网页基于国家法律而封锁
 - JS脚本按照[Standard - JavaScript Style Guide](http://standardjs.com/)重新格式化
 - 背景图片改为由[此图片](https://commons.wikimedia.org/wiki/File:Sample_09-F9_protest_art,_Free_Speech_Flag_by_John_Marcotte.svg)编辑而来的版本，+C0的颜色设计来自[此图片](https://commons.wikimedia.org/wiki/File%3AJune_Fourth_protest_art%2C_Chinese_Free_Speech_Flag.svg)
 
-只要把以下HTML脚本加入你的HTML页面，用户进站时便会看到Blackout 451画面。
+只要把以下HTML加入你的网页，用户进站时便会看到Blackout 451画面。
 
 ```html
 <script src="https://shadowrz.github.io/Error451-Blackout/blackout.js"></script>
 ```
 
 @ShadowRZ 希望人们按照[Mozilla 宣言](https://www.mozilla.org/zh-CN/about/manifesto/details/)，使互联网更加美好。
+
+[Live DEMO at HERE](https://shadowrz.github.io/Error451-Blackout/)
 
 
 ERROR 451: 本網頁基於國家法律而封鎖
